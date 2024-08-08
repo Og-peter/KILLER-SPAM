@@ -5,17 +5,9 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-**•┬── ⋅ ⋅ ─────᯽───── ⋅ ⋅ ──┬•
- ❖ sʌηʌᴛʌηɪ֟፝ sᴘʌᴍ ʙᴏᴛ ʜʟᴘ ᴍᴇηꭎ֟፝᷍ ❖
-•┴── ⋅ ⋅ ─────᯽───── ⋅ ⋅ ──┴•
-•────•❅•°σᴡηᴇʀ ɪ֟፝ηғσ°•❅•────•
-•┬───────────────────┬•
-       ❖ ∣ [s ʌᷟ ᴄᷣ ʜ ɪ֟፝ η](https://t.me/v_vip_owner) | [s ʌᷟ ᴄᷣ ʜ ɪ֟፝ η](https://t.me/sachin_owner) ∣ ❖
-•┴───────────────────┴•
-•┬───•❅•°ʙσᴛ ꭎ֟፝᷍ᴘᴅʌᴛᴇs°•❅•───┬•
-•┬───────────────────┬•
-             [❖ ∣ Sᴀɴᴀᴛᴀɴɪ Tᴇᴄʜ ∣ ❖](https://t.me/All_SANATANI_BOT)
-•┴───────────────────┴•**
+★ 𝗡𝗫𝗧 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★
+
+» ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ
 """
 HELP_BUTTON = [
     [
@@ -27,8 +19,8 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+Ckzm2ypQyIIzZTll")
+      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/+B_2dlj9uilNhZDg1"),
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cwqbZHOjMzRmZmZl")
     ]
   ]
 
@@ -47,7 +39,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph//file/78a297d2757b1f1c81473.mp4",
+              "https://telegra.ph/file/a665072ef8e822a7a14f1.mp4",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -108,7 +100,7 @@ extra_msg = f"""
   ⦁ {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
   ⦁ {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @OFFICIAL_KILLER01 **
 """
 
 
@@ -120,7 +112,7 @@ owner_msg = f"""
  ❖ ᴜꜱᴀɢᴇ :
   ⦁{hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @SACHIN_OWNER ~ @V_VIP_OWNER**
+**© @OFFICIAL_KILLER01 **
 """      
           
 raid_msg = f"""
@@ -144,7 +136,7 @@ raid_msg = f"""
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @OFFICIAL_KILLER01**
 """
 
 spam_msg = f"""
@@ -187,7 +179,7 @@ spam_msg = f"""
   ⦁ {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @SACHIN_OWMER ~ @V_VIP_OWMER**
+** © @OFFICIAL_KILLER01**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -214,13 +206,13 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+Ckzm2ypQyIIzZTll")
+                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/+B_2dlj9uilNhZDg1"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cwqbZHOjMzRmZmZl")
               ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴀɴᴀᴛᴀɴɪ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴋɪʟʟᴇʀ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @OFFICIAL_KILLER01 || @OFFICIAL_KILLER01", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -239,7 +231,7 @@ async def help_spam(event):
               buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴀɴᴀᴛᴀɴɪ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴋɪʟʟᴇʀ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @OFFICIAL_KILLER01 || @OFFICIAL_KILLER01", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -258,7 +250,7 @@ async def help_raid(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴀɴᴀᴛᴀɴɪ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴋɪʟʟᴇʀ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @OFFICIAL_KILLER01 || @OFFICIAL_KILLER01", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -277,4 +269,4 @@ async def help_extra(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴀɴᴀᴛᴀɴɪ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴋɪʟʟᴇʀ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @OFFICIAL_KILLER01 || @OFFICIAL_KILLER01", cache_time=0, alert=True)
