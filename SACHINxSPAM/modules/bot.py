@@ -15,9 +15,9 @@ from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "s ᴀ ɴ ᴀ ᴛ ᴀ ɴ ɪ"
 PIC = "https://telegra.ph/file/57d2b8165f3640f5a3a55.mp4"
-Alivemsg = "sᴀɴᴀᴛᴀɴɪ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
+Alivemsg = "ᴋɪʟʟᴇʀ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 
-TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ](https://t.me/ALL_SANATANI_BOT)\n❖ ᴄʜᴀɴɴᴇʟ : [4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ](https://t.me/+cW07X2RM_IBmYTI1)\n❖ ᴏᴡɴᴇʀ : [sᴀᴄʜɪɴ sᴀɴᴀᴛᴀɴɪ](https://t.me/SACHIN_OWNER)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
+TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | ᴋɪʟʟᴇʀ ꭙ ʙᴏᴛ | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -36,8 +36,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ALL_SANATANI_BOT"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cW07X2RM_IBmYTI1")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+cwqbZHOjMzRmZmZl"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cwqbZHOjMzRmZmZl")
         ],
         ]
         )
@@ -102,14 +102,14 @@ async def logs(KEX):
         fetch = await KEX.reply(f"ꜰᴇᴛᴄʜʜɪɴɢ ʟᴏɢꜱ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...")
     
         with open("Logs.txt", "w") as logfile:
-            logfile.write("sᴀɴᴀᴛᴀɴɪ 𝚇 🍷 [ Bot Logs ]\n\n" + logs)
+            logfile.write("ᴋɪʟʟᴇʀ 𝚇 🍷 [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
         await asyncio.sleep(1)
 
         try:
-            await X1.send_file(KEX.chat_id, "ʟᴏɢꜱ.ᴛxᴛ", caption=f"**sᴀɴᴀᴛᴀɴɪ ʙᴏᴛ ʟᴏɢꜱ 🍷**\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ⌛:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+            await X1.send_file(KEX.chat_id, "ʟᴏɢꜱ.ᴛxᴛ", caption=f"**ᴋɪʟʟᴇʀ ʙᴏᴛ ʟᴏɢꜱ 🍷**\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ⌛:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
             await fetch.delete()
         except Exception as e:
             await fetch.edit(f"**ᴇʀᴏᴏʀ:** {str(e)}")
@@ -161,10 +161,10 @@ async def leave(e):
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        KEX = await e.reply(f"❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖")
+        KEX = await e.reply(f"❖ | ᴋɪʟʟᴇʀ ꭙ ʙᴏᴛ | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖\n❖ ᴛʜᴇ ᴍᴜsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
+        await KEX.edit(f"❖ ᴋɪʟʟᴇʀ ꜱᴀʙᴋɪ ᴍᴀᴀ ᴄʜᴏᴅɴᴇ ᴋᴇ ʟɪʏᴇ ᴛᴀɪʏᴀᴀʀ ʜᴀɪɴ 👿 ⚡ \n\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
