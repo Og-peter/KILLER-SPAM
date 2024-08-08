@@ -14,7 +14,7 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "s ᴀ ɴ ᴀ ᴛ ᴀ ɴ ɪ"
-PIC = "https://telegra.ph/file/57d2b8165f3640f5a3a55.mp4"
+PIC = "https://telegra.ph/file/a665072ef8e822a7a14f1.mp4"
 Alivemsg = "ᴋɪʟʟᴇʀ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 
 TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | ᴋɪʟʟᴇʀ ꭙ ʙᴏᴛ | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
@@ -36,7 +36,7 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+cwqbZHOjMzRmZmZl"),
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+B_2dlj9uilNhZDg1"),
         Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cwqbZHOjMzRmZmZl")
         ],
         ]
