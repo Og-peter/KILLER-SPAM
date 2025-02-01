@@ -15,7 +15,7 @@ CMD_HNDLR = "!"  # Yahan apna prefix dal sakte ho
 BOT_TOKENS = [
     "7335799800:AAEqEIH_FqVnSJB8C6Czcx6btuchVFvMuVQ",  # X1
     "7456960988:AAF2qtGunhDGWzwLRX7Izq4GON_2kS_uxPw",  # X2
-    "YOUR_THIRD_BOT_TOKEN_HERE",  # X3 (Yeh zaroori hai, warna error aayega)
+    "7633665603:AAENUnc3jrABhg8GOzCeSegW1DUlBjUPViQ",  # X3 (Yeh zaroori hai, warna error aayega)
     None, None, None, None, None, None, None  # Extra slots for future bots
 ]
 
