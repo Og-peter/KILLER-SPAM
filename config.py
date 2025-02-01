@@ -9,13 +9,14 @@ API_ID = 18136872
 API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
 
 # Command Handler
-CMD_HNDLR = "!"  # Yahan apna custom prefix daal sakte ho (e.g., "/", "?", "$")
+CMD_HNDLR = "!"  # Yahan apna prefix dal sakte ho
 
-# Direct Bot Tokens
+# Direct Bot Tokens (Ensure at least 3 valid tokens)
 BOT_TOKENS = [
-    "7335799800:AAEqEIH_FqVnSJB8C6Czcx6btuchVFvMuVQ",  # Bot 1
-    "7456960988:AAF2qtGunhDGWzwLRX7Izq4GON_2kS_uxPw",  # Bot 2
-    None, None, None, None, None, None, None, None  # Extra slots for future bots
+    "7335799800:AAEqEIH_FqVnSJB8C6Czcx6btuchVFvMuVQ",  # X1
+    "7456960988:AAF2qtGunhDGWzwLRX7Izq4GON_2kS_uxPw",  # X2
+    "YOUR_THIRD_BOT_TOKEN_HERE",  # X3 (Yeh zaroori hai, warna error aayega)
+    None, None, None, None, None, None, None  # Extra slots for future bots
 ]
 
 # Owner & Sudo Users
@@ -30,4 +31,5 @@ for i, token in enumerate(BOT_TOKENS):
         clients.append(client)
 
 # Assign variables dynamically
-X1, X2, X3, X4, X5, X6, X7, X8, X9, X10 = clients + [None] * (10 - len(clients))
+clients += [None] * (10 - len(clients))  # Ensure 10 elements (None if missing)
+X1, X2, X3, X4, X5, X6, X7, X8, X9, X10 = clients
